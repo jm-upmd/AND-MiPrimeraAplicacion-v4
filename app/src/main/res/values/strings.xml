@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">V4-MiPrimeraAplicacion</string>
+    <string name="btn_multiplica">Multiplicar</string>
+    <string name="btn_divide">Dividir</string>
+    <string name="btn_resetea">Resetear</string>
+    <string name="txt_valor">Valor</string>
+</resources>

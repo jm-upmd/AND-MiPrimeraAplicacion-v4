@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+   <!-- Creo un nuevo tema que hereda de AppTheme y sobreescribo la propiedad textStyle
+    para que la litra sea itálica.-->
+
+    <style name="MiAppTheme" parent="AppTheme">
+        <!-- Customize your theme here. -->
+        <item name="android:textStyle">italic</item>
+    </style>
+    
+
+    <!-- Defino un estilo para aplicar a los botones -->
+
+    <style name="EstiloBoton">
+        <item name="android:background">@drawable/fondo_boton_mejorado</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:textSize">10sp</item>
+
+    </style>
+
+</resources>
